@@ -33,4 +33,4 @@
  *
  */
 
-"currency" : "monero7",
+"currency" : "haven",

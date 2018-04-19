@@ -7,7 +7,7 @@ RUN apt-get update \
         libssl1.0.0 \
     && rm -r /var/lib/apt/lists/*
 
-ENV XMR_STAK_CPU_VERSION 2.4.2
+ENV XMR_STAK_CPU_VERSION 2.4.4
 
 RUN set -x \
     && buildDeps=' \
@@ -25,7 +25,7 @@ RUN set -x \
     \
     && mkdir -p /usr/local/src/xmr-stak-cpu/build \
     && cd /usr/local/src/xmr-stak-cpu/ \
-    && curl -sL https://github.com/fireice-uk/xmr-stak/archive/$XMR_STAK_CPU_VERSION.tar.gz | tar -xz --strip-components=1 \
+    && curl -sL https://github.com/IndeedMiners/xmr-aeon-stak/archive/$XMR_STAK_CPU_VERSION.tar.gz | tar -xz --strip-components=1 \
     && sed -i 's/constexpr double fDevDonationLevel.*/constexpr double fDevDonationLevel = 0.0;/' xmrstak/donate-level.hpp \
     && cd build \
     && cmake -DOpenCL_ENABLE=OFF -DCUDA_ENABLE=OFF .. \
