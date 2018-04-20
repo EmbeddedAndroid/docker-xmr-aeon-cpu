@@ -14,7 +14,7 @@
  
 "pool_list" :
 [
-	{"pool_address" : "pool.supportxmr.com:3333", "wallet_address" : "493q7wHvUfhTRk9JMopZVxFFWDNowZkqkRWpMZdbTyRSepzfMjRau6g2JpS9QaRDZ55gJ11wtJTmF1nhEYxUqePu7VhXpLB", "rig_id" : "", "pool_password" : "xmr-stak-cpu-dockerhub", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "xhv.luckypool.io:7777", "wallet_address" : "hvxxxQSefQZ8vj279PnKRparKjVFvxxjNSMpftzKLT8QUKEzKxzsgYmSy3kFSgmEEMJStLTs1aiXtQVK5V5wo7zz79RNHT9AWk", "rig_id" : "", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*
